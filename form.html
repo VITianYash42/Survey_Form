@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel = "stylesheet" href = "form.css">
+    </head>
+    <body>
+        <div class = "heading">
+            <h1>Survey Form</h1>
+        </div>
+
+        <div class = "description">
+            <h3>Thank you for taking the time to help me improve</h3>
+        </div>
+
+        <div class = "overall">
+            <div class = "question-container">
+                <p class = "question">Name</p>
+                <input class = "answer-container" type = "text" placeholder="Enter your name">
+            </div>
+
+            <div class = "question-container-1">
+                <p class = "question">Email</p>
+                <input class = "answer-container" type = "text" placeholder="Enter your Email">
+            </div>
+
+            <div class = "question-container-2">
+                <p class = "question">Age(optional)</p>
+                <input class = "answer-container" type = "text" placeholder="Age">
+            </div>
+
+            <div class = "question-container-3">
+                <p class = "question">Which option best describes your current role?</p>
+                <select id="role" name="role" class = "answer-container-3">
+                <option>Select Current Role</option>
+                <option value="Student">Student</option>
+                <option value="Working">Working Professional</option>
+                <option value="part-time">Part-Time Working</option>
+                <option value="Prefer-not">Prefer Not to Say</option>
+                </select>
+            </div>
+
+            <div class = "question-container-4">
+            <p class = "question">Did you like the style of this Survey?</p>
+            <input class= "radios" type="radio" id="html" name="fav_language" value="HTML">
+            <label class = "radio-text" for="html">Agree</label><br>
+            <input class= "radios" type="radio" id="css" name="fav_language" value="CSS">
+            <label class = "radio-text" for="css">Disagree</label><br>
+            <input class= "radios" type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label class = "radio-text" for="javascript">No opinion</label>
+            </div>
+
+            <div class = "question-container-5">
+                <p class = "question">What did you like the most?</p>
+                <select id="like" name="like" class = "answer-container-5">
+                <option class = "selection">Select an Option</option>
+                <option value="coding">Coding Challenges</option>
+                <option value="hackathon">Hackathons</option>
+                <option value="contest">Contests</option>
+                <option value="rest">Rest</option>
+                </select>
+            </div>
+
+            <div class = "question-container-6">
+                <p class = "question">What Would you like to see Improved?</p>
+                <div class = "check-box">
+                <input type = "checkbox"><label class = "checkbox">Responsiveness</label><br>
+                <input type = "checkbox"><label class = "checkbox">Design</label><br>
+                <input type = "checkbox"><label class = "checkbox">Visualization</label><br>
+                <input type = "checkbox"><label class = "checkbox">Smoothness</label><br>
+                <input type = "checkbox"><label class = "checkbox">Variety of Questions</label><br>
+                </div>
+            </div>
+
+            <div class = "question-container-7">
+                <p class = "question">Any comments or Suggestions?</p>
+                <textarea class = "answer-container-7" placeholder = "Enter Your Comments Here..."></textarea>
+            </div>
+
+            <div class = "Submit">
+                <button class = "submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

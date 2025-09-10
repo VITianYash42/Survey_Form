@@ -1,0 +1,230 @@
+body {
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    font-family: Roboto, Arial;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 10px;
+}
+
+.overall {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
+    height: 1200px;
+    padding-top: 0;
+    position: relative; */
+
+    max-width: 700px; 
+    width: 90%;
+    margin: 50px auto; 
+    padding: 40px;
+    background-color: rgba(25, 48, 147, 0.542);
+    border-radius: 8px;
+}
+
+.question-container {
+    /* position: absolute; */
+    /* top: 20px;
+    left: 50px; */
+}
+
+.question {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.answer-container {
+    width: 600px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.question-container-1 {
+    /* position: absolute; */
+    /* top: 120px;
+    left: 50px; */
+}
+
+.question-container-2 {
+    /* position: absolute; */
+    /* top: 215px;
+    left: 50px; */
+}
+
+.question-container-3 {
+    /* position: absolute; */
+    /* top: 315px;
+    left: 50px; */
+}
+
+.answer-container-3 {
+    width: 613px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: gray;
+    border-style: solid;
+    border-color: rgb(115, 113, 113);
+    border-width: 2px;
+}    
+
+
+.question-container-4 {
+    /* position: absolute; */
+    /* top: 420px;
+    left: 50px; */
+}
+
+.radios {
+    width: 20px;
+    height: 15px;
+    margin-top: 13px;
+    
+}
+
+.radio-text {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+.question-container-5 {
+    /* position: absolute; */
+    /* top: 580px;
+    left: 50px; */
+}
+
+.answer-container-5 {
+    width: 613px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: gray;
+    border-style: solid;
+    border-color: rgb(115, 113, 113);
+    border-width: 2px;
+}    
+
+.question-container-6 {
+    /* position: absolute; */
+    /* top: 690px;
+    left: 50px; */
+}
+
+.question-container-6 .check-box {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* .check-box {
+    height: 15px;
+    margin-top: 15px;
+} */
+
+.checkbox{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.question-container-6 input[type = "checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.question-container-7 {
+    /* position: absolute; */
+    /* margin-bottom: 25px; */
+     /* top: 200px; */
+     /* left: 0px;  */
+}
+
+.answer-container-7 {
+    font-family: Roboto, Arial;
+    width: 605px;
+    height: 130px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: gray;
+    border-style: solid;
+    border-color: rgb(115, 113, 113);
+    border-width: 2px;
+    padding-top: 10px;
+}    
+
+/* .Submit {
+    position: absolute;
+    top: 410px;
+    left: 0px;
+} */
+
+.submit:hover {
+    background-color: rgb(23, 153, 23);
+}
+
+.submit {
+    width: 100%;
+    padding: 12px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.question-container,
+.question-container-1,
+.question-container-2,
+.question-container-3,
+.question-container-4,
+.question-container-5,
+.question-container-6,
+.question-container-7 {
+    margin-bottom: 25px; 
+}
+
+.answer-container,
+.answer-container-3,
+.answer-container-5,
+.answer-container-7 {
+    width: 100%;
+    box-sizing: border-box;
+}
