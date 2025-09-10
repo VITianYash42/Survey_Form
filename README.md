@@ -29,6 +29,12 @@ You can view and interact with the live version of the project here:
 
 ---
 
+## The Problems I faced while developing and how I fixed them :-
+
+-   **Rigid vs. Responsive Layout**: I initially used a fixed-pixel values and absolute positioning which created a rigid layout that cant adapt to different screen sizes. I refactored it to        be fully responsive using a fluid container and a natural document flow, learning the importance of a mobile-first approach.
+
+-   **HTML Structure**: A persistent bug led me to discover I had incorrectly nested elements in my HTML. Debugging and fixing the structure taught me that clean, semantic HTML is the               essential foundation for predictable CSS.
+
 ## 🛠️ Technologies & Tools
 
 This project was built using core front-end technologies, with a focus on creating a flexible and maintainable structure.
